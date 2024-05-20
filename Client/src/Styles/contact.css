@@ -1,0 +1,190 @@
+.contact-us-info-wrap .contact-us-info-title {
+    margin: 0 0 27px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .contact-us-info-wrap .contact-us-info-title {
+      margin: 0 0 12px;
+    }
+  }
+  
+  .contact-us-info-wrap .contact-us-info-title h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    padding-left: 24px;
+    line-height: 1;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .contact-us-info-wrap .contact-us-info-title h3 {
+      font-size: 20px;
+    }
+  }
+  
+  .contact-us-info-wrap .contact-us-info-title h3:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #000000;
+  }
+  
+  .contact-us-info-wrap .contact-us-info {
+    margin: 0 0 18px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .contact-us-info-wrap .contact-us-info {
+      margin: 0 0 12px;
+    }
+  }
+  
+  .contact-us-info-wrap .contact-us-info p {
+    font-size: 16px;
+    color: #323232;
+    margin: 0 0 6px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .contact-us-info-wrap .contact-us-info p {
+      font-size: 15px;
+      margin: 0 0 5px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .contact-us-info-wrap .contact-us-info p {
+      font-size: 14px;
+    }
+  }
+  
+  .contact-us-info-wrap .contact-us-info span {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .contact-us-info-wrap .contact-us-info span {
+      font-size: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .contact-us-info-wrap .contact-us-info span {
+      font-size: 14px;
+    }
+  }
+  
+  .map iframe {
+    height: 500px;
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 1366px) and (max-width: 1600px) {
+    .map iframe {
+      height: 400px;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) and (max-width: 1365px) {
+    .map iframe {
+      height: 400px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .map iframe {
+      height: 350px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .map iframe {
+      height: 350px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .map iframe {
+      height: 300px;
+    }
+  }
+  
+  .contact-form-style input, .contact-form-style textarea {
+    border: 1px solid #f2f2f2;
+    background-color: #f9f9f9;
+    height: 50px;
+    color: #8f8f8f;
+    font-weight: 300;
+    padding: 2px 20px;
+    margin: 0 0 30px;
+  }
+  
+  .contact-form-style input::-moz-input-placeholder, .contact-form-style textarea::-moz-input-placeholder {
+    color: #8f8f8f;
+    opacity: 1;
+  }
+  
+  .contact-form-style input::-webkit-input-placeholder, .contact-form-style textarea::-webkit-input-placeholder {
+    color: #8f8f8f;
+    opacity: 1;
+  }
+  
+  .contact-form-style textarea {
+    padding: 26px 30px;
+    height: 290px;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .contact-form-style textarea {
+      height: 200px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .contact-form-style textarea {
+      height: 150px;
+    }
+  }
+  
+  .contact-form-style .contact-us-btn {
+    text-align: right;
+  }
+  
+  .contact-form-style .contact-us-btn button {
+    display: inline-block;
+    background-color: #e97730;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    padding: 18px 40px;
+    z-index: 1;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .contact-form-style .contact-us-btn button {
+      font-size: 15px;
+      padding: 12px 25px;
+    }
+  }
+  
+  .contact-form-wrap p.form-messege {
+    margin: 0;
+    text-align: right;
+  }
+  
+  .contact-form-wrap p.form-messege.success {
+    margin: 10px 0 0;
+  }

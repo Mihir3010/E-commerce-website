@@ -1,0 +1,62 @@
+.revenue_box, .order_box, .products_box, .users_box{
+    padding: 20px;
+    border-radius: 5px;
+}
+.revenue_box{
+     background: var(--card-bg-01);
+}
+.order_box{
+     background: var(--card-bg-02);
+}
+.products_box{
+     background: var(--card-bg-03);
+}
+.users_box{ 
+    background: var(--card-bg-04);
+}
+.revenue_box h5, .order_box h5, .products_box h5, .users_box h5{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+
+}
+.revenue_box span, .order_box span, .products_box span, .users_box span{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.5rem;
+
+     
+}
+tbody .boad{
+     border-radius: 50px;
+     color: rgb(255, 255, 255);
+     background-color: rgb(232, 56, 56);
+     width: 110px;
+     justify-content: center;
+     align-items: center;
+     margin: 2px;
+     padding-left: 20px;
+     padding-top: 8px;
+     padding-bottom: 15px;
+}
+tbody .bad{
+    border-radius: 50px;
+    padding-top: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(36, 181, 48);
+    width: 110px;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    
+ 
+
+}
+.dass{
+     align-items: center;
+     justify-content: space-between;
+     margin-top: 25px;
+}

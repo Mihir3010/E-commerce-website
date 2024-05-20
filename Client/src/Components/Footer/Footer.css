@@ -1,0 +1,43 @@
+.footer{
+     padding-top: 60px;
+     padding-bottom: 30px;
+     background-color: #f4f4f4;
+
+}
+.footer_text{ 
+    line-height: 30px;
+    color: #000;
+}
+.footer_quick-link ul li{
+   background-color: transparent !important;
+}
+.footer_quick-link ul li a{
+    color: #000;
+     
+}
+.quick_link-title{ 
+    margin-bottom: 30px;
+    color: #000;
+    font-size: 1.1rem;
+}
+
+.footer_contact li span , .footer_contact li p { 
+   color: #000;
+   
+
+}
+.footer_contact li span{
+     font-size: 1.2rem;
+
+}
+.footer_contact li p{
+     font-size: .9rem;
+}
+.footer_copyright{
+     color: #823131;
+     font-size: 0.9rem;
+     margin-top: 50px;
+     text-align: center;
+     
+}
+

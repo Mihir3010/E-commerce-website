@@ -1,0 +1,23 @@
+.common_section{
+    margin-top: 25px;
+}
+
+
+.common_section{ 
+    background: 
+    url(".././assets/images/bg-4.png") no-repeat center center ;
+   
+    background-size: cover;
+    padding: 120px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+   
+}
+.common_section h1{
+    color: #1a1a1a;
+    font-weight: 700;
+    
+}
